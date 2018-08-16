@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+        <title>自己研究的plupload上传视频等大文件</title>
+
+        <link href="__PUBLIC__/css/common.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="demo clearfix" style="width:600px;margin:120px auto">
+            <input type="file" id="upfile">
+            <a onclick="showVideoUploadBox($('#btn_video'))" id="btn_video" class="item"><i class="icon_emot_photo_video icon_video"></i><span>视频</span></a>
+        </div>
+        <div class="FileArea"></div>
+    </body>
+
+</html>
+<script>
+    var str = "";
+    $("#upfile").on("change", function () {
+        var obj = document.getElementById("upfile");
+        var length = obj.files.length;
+        for (var i = 0; i < length; i++) {
+            $(".FileArea").html("");
+            var temp = obj.files[i].name;
+
+
+            var eachSize = (size/1024/1024);
+            //分割的数量
+//            if(parseInt(count) < count){
+//                count ++;
+//            }
+//            for(var j=0;j< count;j++){
+//
+//            }
+            chunk = 0;
+            // 设置分片的开始结尾
+            var blobFrom = chunk * eachSize, // 分段开始
+                blobTo = (chunk + 1) * eachSize > totalSize ? totalSize : (chunk + 1) * eachSize, // 分段结尾
+                percent = (100 * blobTo / totalSize).toFixed(1), // 已上传的百分比
+                timeout = 5000, // 超时时间
+                fd = new FormData($('#myForm')[0]);
+
+            fd.append('theFile', findTheFile(fileName).slice(blobFrom, blobTo)); // 分好段的文件
+            fd.append('fileName', fileName); // 文件名
+            fd.append('totalSize', totalSize); // 文件总大小
+            fd.append('isLastChunk', isLastChunk); // 是否为末段
+            fd.append('isFirstUpload', times === 'first' ? 1 : 0); // 是否是第一段（第一次上传）
+        }
+        $(".FileArea").append(str);
+    });
+    function cutting(size) {
+
+    }
+</script>

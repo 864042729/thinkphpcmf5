@@ -1,0 +1,1645 @@
+[ 2017-09-06T15:07:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-06T15:07:02+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 310000 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 310108 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 310000 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: country_info D:\WWW\demo\Application\Home\Controller\CityController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: country_box D:\WWW\demo\Application\Home\Controller\CityController.class.php 第 74 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-06T15:07:06+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 310000 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 310108 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 310000 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: country_info D:\WWW\demo\Application\Home\Controller\CityController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: country_box D:\WWW\demo\Application\Home\Controller\CityController.class.php 第 74 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:07:07+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 310000 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 310108 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 310000 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: country_info D:\WWW\demo\Application\Home\Controller\CityController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: country_box D:\WWW\demo\Application\Home\Controller\CityController.class.php 第 74 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:08:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:08:26+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0040s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 310000 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 310108 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 310000 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: country_info D:\WWW\demo\Application\Home\Controller\CityController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: country_box D:\WWW\demo\Application\Home\Controller\CityController.class.php 第 74 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:08:31+08:00 ] 127.0.0.1 /City/get_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0040s ]
+SQL: SELECT `level`,`is_city` FROM `citys` WHERE ( id = 320000 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 320000 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:08:37+08:00 ] 127.0.0.1 /City/get_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0040s ]
+SQL: SELECT `level`,`is_city` FROM `citys` WHERE ( id = 321100 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 321100 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:08:39+08:00 ] 127.0.0.1 /City/change_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-06T15:08:41+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0000s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 320000 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 321100 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 321181 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 321100 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0100s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 320000 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-06T15:08:51+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0040s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 320000 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 321100 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 321181 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 321100 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 320000 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:08:59+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0050s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 320000 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 321100 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 321181 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 321100 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 320000 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:09:05+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0050s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 320000 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 321100 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 321181 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 321100 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 320000 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:09:11+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0060s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 320000 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 321100 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 321181 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 321100 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 320000 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:09:20+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0050s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 320000 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 321100 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 321181 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 321100 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 320000 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:10:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:10:59+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 320000 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 321100 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 321181 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 321100 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 320000 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:11:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:11:01+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 320000 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 321100 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 321181 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 321100 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 320000 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-06T15:11:05+08:00 ] 127.0.0.1 /City/get_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0030s ]
+SQL: SELECT `level`,`is_city` FROM `citys` WHERE ( id = 410000 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 410000 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:11:08+08:00 ] 127.0.0.1 /City/get_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0000s ]
+SQL: SELECT `level`,`is_city` FROM `citys` WHERE ( id = 411500 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 411500 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:11:09+08:00 ] 127.0.0.1 /City/change_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:11:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:11:55+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0040s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 410000 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411500 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411526 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 411500 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 410000 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:12:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:12:05+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0040s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 410000 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411500 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411526 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 411500 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 410000 )  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:12:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-06T15:12:12+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0050s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 410000 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411500 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411526 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 411500 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 410000 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:12:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-09-06T15:12:18+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0060s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 410000 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411500 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411526 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 411500 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 410000 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:12:20+08:00 ] 127.0.0.1 /City/change_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-06T15:41:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-06T15:41:36+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 410000 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411500 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411524 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 411500 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 410000 )  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:43:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-06T15:44:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-06T15:44:24+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:45:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:45:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:45:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-06T15:45:27+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:45:29+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:45:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:46:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:46:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-06T15:46:48+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:47:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:47:14+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-06T15:47:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-06T15:48:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:48:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:48:23+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:48:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:49:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:49:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:49:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:50:28+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:50:29+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-06T15:50:30+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:50:30+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-06T15:50:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:51:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:51:08+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 410000 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411500 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411524 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 411500 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 410000 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-06T15:51:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:53:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:53:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-06T15:53:45+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:54:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:54:48+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:55:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:55:26+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 410000 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411500 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411524 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 411500 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0100s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 410000 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:55:29+08:00 ] 127.0.0.1 /City/change_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:55:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-06T15:55:44+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 410000 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411500 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411525 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 411500 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 410000 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-06T15:55:46+08:00 ] 127.0.0.1 /City/change_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:55:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T15:55:48+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 410000 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411500 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411524 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 411500 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 410000 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T16:11:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T16:11:37+08:00 ] 127.0.0.1 /City/init_cities
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for getUserCitys(), called in D:\WWW\demo\Application\Home\Controller\CityController.class.php on line 18 and defined D:\WWW\demo\Application\Common\Common\common.php 第 3 行.
+NOTIC: [8] Undefined variable: type D:\WWW\demo\Application\Common\Common\common.php 第 35 行.
+SQL: SHOW COLUMNS FROM `citys` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`is_city` FROM `citys` WHERE ( id = 410000 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411500 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`pid` FROM `citys` WHERE ( id = 411524 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 411500 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100001 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100002 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100003 )  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100004 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100005 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100006 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id`,`is_city` FROM `citys` WHERE ( pid = 100007 )  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `citys` WHERE ( pid = 410000 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
