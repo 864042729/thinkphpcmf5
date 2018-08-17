@@ -20,6 +20,7 @@ function getUserCitys($type) {
                     $country_info = M("citys")->field("id")->where("pid = '" . $c_city . "'")->find();
                     $c_country = $country_info['id'];
                 }
+
             }
         }
     }
